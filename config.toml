@@ -1,7 +1,0 @@
-baseURL = 'https://alessandroscaudo.com'
-languageCode = 'en-us'
-title = 'Alessandro Scaudo'
-theme = 'PaperMod'
-
-[params]
-    defaultTheme = "auto"
