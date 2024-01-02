@@ -1,4 +1,7 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = 'https://alessandroscaudo.com'
 languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+title = 'Alessandro Scaudo'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "auto"
