@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://alessandroscaudo.netlify.app"
+baseURL: "https://alessandroscaudo.com"
 title: Alessandro Scaudo
 paginate: 5
 theme: [PaperMod]
