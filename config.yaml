@@ -13,7 +13,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
-# googleAnalytics: G-XWRMZ6T43E
+googleAnalytics: G-XWRMZ6T43E
 
 minify:
   disableXML: true
