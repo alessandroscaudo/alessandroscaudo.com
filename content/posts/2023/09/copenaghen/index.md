@@ -1,5 +1,5 @@
 ---
-title: ":it: Copenaghen"
+title: "Copenaghen"
 date: 09/09/23
 draft: false
 cover:
