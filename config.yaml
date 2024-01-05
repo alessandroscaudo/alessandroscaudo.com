@@ -99,9 +99,13 @@ params:
     - name: instagram
       title: follow me on Instagram
       url: "https://instagram.com/alessandroscaudo"
-    - name: messenger
+    - name: facebook
       title: chat with me on Messanger
       url: https://www.messenger.com/t/scaudoalessandro
+    - name: strava
+      title: follow me on Strava
+      url: https://www.messenger.com/t/scaudoalessandro
+
 
 
   # label:
