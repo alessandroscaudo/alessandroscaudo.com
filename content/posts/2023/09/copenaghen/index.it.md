@@ -2,9 +2,9 @@
 author : "Alessandro Scuado"
 title: "Copenaghen"
 date: 09/09/23
-description: "My journey in the Danish capital, Copenhagen, exploring its history and architecture."
-tags: ["Travel", "Denmark", "Architecture"]
-categories: ["Travel"]
+description: "Il mio viaggio nella capitale danese, Copenaghen alla scoperta della sua storia e arichitettura"
+tags: ["Viaggi", "Danimarca", "Architettura"]
+categories: ["Viaggi"]
 draft: false
 cover:
     image: "/posts/2023/09/copenaghen/IMG_20230909_131820.webp"
@@ -15,7 +15,7 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-Copenhagen reveals itself as a fascinating destination, with a significant cultural and architectural heritage and a unique atmosphere. Below, I will share my journey of discovering the Danish capital.
+Copenaghen si svela come una destinazione affascinante, con un importante patrimonio culturale, architettonico e un'atmosfera unica. Di seguito vi racconterò il mio viaggio alla scoperta della capitale danese.
 
 ## preparazioen
 
