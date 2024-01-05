@@ -91,14 +91,17 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    # Title: "PaperMod's Demo"
     Content: >
-      👋 Benvenuto
+      👋 Benvenuto, di seguto trovi i miei profili social
 
   socialIcons:
     - name: instagram
       title: follow me on Instagram
       url: "https://instagram.com/alessandroscaudo"
+    - name: messenger
+      title: chat with me on Messanger
+      url: https://www.messenger.com/t/scaudoalessandro
 
 
   # label:

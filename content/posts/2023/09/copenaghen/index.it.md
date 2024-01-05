@@ -17,11 +17,10 @@ cover:
 
 Copenaghen si svela come una destinazione affascinante, con un importante patrimonio culturale, architettonico e un'atmosfera unica. Di seguito vi racconterò il mio viaggio alla scoperta della capitale danese.
 
-## preparazioen
 
-per
+## Primo giorno
+Il nostro viaggio è iniziato dall'[aereoporto di Orio al Serio](https://www.milanbergamoairport.it) di Bergamo, dove tramite il volo WizzAIR delle 7:00.
 
+l'aereoporto di Copenaghen è molto ben collegato alla città, noi avendo deciso di aquistare la [Copenaghen Card](https://www.copenhagencard.com/) avevamo incluso la metropolitana.
 
-
-# Primo giorno
-
+> Attenzione nelle stazioni della metro di Copenaghen non sono presenti tornelli, ricordati di obbliterare il biglietto digitalmente o fisicamnte ai totem presenti all'ingresso
