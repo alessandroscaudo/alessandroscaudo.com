@@ -1,6 +1,10 @@
 ---
+author : "Alessandro Scuado"
 title: "Bar Is The Name"
 date: 09/01/23
+description: "il racconto dello sviluppo del progetto BarIsTheName"
+tags: ["HTML", "firebase", "web", "design"]
+categories: ["Progetti"]
 draft: false
 cover:
     image: "/posts/2023/09/baristhename/cover_baristhename.webp"
