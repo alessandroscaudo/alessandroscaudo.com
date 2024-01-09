@@ -51,8 +51,8 @@ languages:
           url: aboutme/
           weight: 5
         - name: Archivio
-        url: archives
-        weight: 10
+          url: archives
+          weight: 10
 
 
 
