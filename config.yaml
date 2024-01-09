@@ -32,6 +32,10 @@ languages:
         - name: About Me
           url: aboutme
           weight: 5
+        - name: Archives
+          url: archives
+          weight: 10
+          
 
   it:
     languageName: ":it:"
