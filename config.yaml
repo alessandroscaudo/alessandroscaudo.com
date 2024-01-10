@@ -64,9 +64,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Alessandro Scaudo - personal blog"
+  description: "Alessandro Scaudo - my personal blog"
   author: Alessandro Scaudo
-  # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -83,19 +82,6 @@ params:
   ShowToc: true
   comments: true
   images: ["images/papermod-cover.png"]
-
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
 
   homeInfoParams:
     # Title: "PaperMod's Demo"
