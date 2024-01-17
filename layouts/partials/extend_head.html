@@ -1,47 +1,49 @@
 <noscript>
   <meta http-equiv="refresh" content="0; url={{ .Permalink }}"/>
 </noscript>
+
 <script>
-    ;(function () {
-      // Only do i18n at root, 
-      // otherwise, redirect immediately
-      if (window.location.pathname !== '/') {
-        window.location.replace('{{ .Permalink }}')
-        return
-      }
+  (function () {
+    // Esegui il reindirizzamento immediato solo alla radice, altrimenti reindirizza subito
+    if (window.location.pathname !== '/') {
+      window.location.replace('{{ .Permalink }}');
+      return;
+    }
 
-      var getFirstBrowserLanguage = function () {
-        var nav = window.navigator,
-        browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
-        i,
-        language
+    // Funzione per ottenere la lingua preferita del browser
+    var getFirstBrowserLanguage = function () {
+      var nav = window.navigator;
+      var browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'];
+      var language;
 
-        if (Array.isArray(nav.languages)) {
-          for (i = 0; i < nav.languages.length; i++) {
-            language = nav.languages[i]
-            if (language && language.length) {
-              return language
-            }
-          }
-        }
-
-        // support for other well known properties in browsers
-        for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
-          language = nav[browserLanguagePropertyKeys[i]]
+      if (Array.isArray(nav.languages)) {
+        for (var i = 0; i < nav.languages.length; i++) {
+          language = nav.languages[i];
           if (language && language.length) {
-            return language
+            return language;
           }
         }
-        return 'en'
       }
 
-      var preferLang = getFirstBrowserLanguage()
-      if (preferLang.indexOf('it') !== -1) {
-        // visitor prefers Chinese
-        window.location.replace('/it/')
-      } else {
-        // fallback to English
-        window.location.replace('/en/')
+      // Supporto per altre proprietà ben conosciute nei browser
+      for (var j = 0; j < browserLanguagePropertyKeys.length; j++) {
+        language = nav[browserLanguagePropertyKeys[j]];
+        if (language && language.length) {
+          return language;
+        }
       }
-    })()
+
+      return 'en';
+    };
+
+    // Ottieni la lingua preferita del browser
+    var preferLang = getFirstBrowserLanguage();
+
+    // Se la lingua preferita è italiana, reindirizza a /it/, altrimenti a /en/
+    if (preferLang.indexOf('it') !== -1) {
+      window.location.replace('/it/');
+    } else {
+      window.location.replace('/en/');
+    }
+  })();
 </script>
